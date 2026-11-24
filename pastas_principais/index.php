@@ -325,7 +325,6 @@
             <a href="#como-funciona">Como funciona</a>
             <a href="#contato">Contato</a>
             <a href="Login.php" class="btn-login">Entrar</a>
-            <p>vai dar certo</p>
         </nav>
     </header>
 
