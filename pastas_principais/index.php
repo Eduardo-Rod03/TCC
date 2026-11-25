@@ -309,6 +309,16 @@
                 width: 100%;
             }
         }
+       header {
+        width: 100%;
+        display: flex;
+        padding: 4%
+        justify-content: space-a round;
+        alingn-items : left;
+        position: fixed;
+        z-index: 99;
+
+        }
 
     </style>
 </head>
@@ -325,6 +335,10 @@
             <a href="#como-funciona">Como funciona</a>
             <a href="#contato">Contato</a>
             <a href="Login.php" class="btn-login">Entrar</a>
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 355ecd9 (atualizaçao para o trabalho)
         </nav>
     </header>
 
@@ -386,7 +400,7 @@
                     Encontrou algo? Cadastre o objeto
                     para ajudar a devolver ao seu verdadeiro dono.
                 </p>
-                <a href="cadastre de objetos.php">Cadastrar agora →</a>
+                <a href="cadastre_objeto.php">Cadastrar agora →</a>
             </div>
 
         </div>

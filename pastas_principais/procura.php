@@ -120,34 +120,53 @@ $resultados = array_filter($objetos, function($objeto) use ($pesquisa, $categori
     display: flex;
     align-items: center;
     gap: 20px;
-}
+    }
 
-.objeto img {
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 10px;
-}
+    .objeto img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
 
 
-.informacoes {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
 
-.informacoes h3,
-.informacoes p {
-    margin: 0;
-}
+    .informacoes h3,
+    .informacoes p {
+        margin: 0;
+    }
+    header {
+            width: 100%;
+            display: flex;
+            padding: 4%
+            justify-content: space-a round;
+            alingn-items : left;
+            position: fixed;
+            z-index: 99;
+            }
+            .logo {
+            font-size: 28px;
+            font-weight: 800;
+            color: white;
+        }
+
+        .logo span {
+            color: #5680ff;
+        }
+    
     </style>
 </head>
 
 <body>
+      <header>
+        <div class="logo">Find<span>ly.</span></div>
+    </header>
 
-<header>
-    <a href="index.html">Findly.</a>
-</header>
 
 <main>
 

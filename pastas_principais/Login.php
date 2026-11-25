@@ -35,14 +35,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
 
         .logo {
-            font-size: 32px;
-            font-weight: bold;
-            color: #4d78ff;
+            font-size: 28px;
+            font-weight: 800;
+            color: white;
         }
 
         .logo span {
-            color: white;
+            color: #5680ff;
         }
+
 
         .container {
             display: flex;
