@@ -453,7 +453,7 @@
     <footer>
         <strong>Findly.</strong>
         <p>Conectando pessoas e reencontrando histórias.</p>
-        <p>© 2026 Findly. Todos os direitos reservados.</p>
+        <p>© 2025 Findly. Todos os direitos reservados.</p>
     </footer>
 
 </body>
